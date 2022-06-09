@@ -1,2 +1,2 @@
-import UsersList from "./UsersList";
-export { UsersList };
+import SearchUsers from "./UsersList";
+export { SearchUsers };

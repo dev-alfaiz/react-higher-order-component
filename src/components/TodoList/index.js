@@ -1,2 +1,2 @@
-import TodoList from "./TodoList";
-export { TodoList };
+import SearchTodos from "./TodoList";
+export { SearchTodos };

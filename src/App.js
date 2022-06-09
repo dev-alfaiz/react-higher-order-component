@@ -1,5 +1,5 @@
 import * as React from "react";
-import { UsersList, TodoList } from "./components";
+import { SearchUsers, SearchTodos } from "./components";
 
 const App = () => {
   return (
@@ -8,10 +8,10 @@ const App = () => {
         <u>React Higher Order Component</u>
       </h1>
       <div>
-        <UsersList />
+        <SearchUsers />
       </div>
       <div>
-        <TodoList />
+        <SearchTodos />
       </div>
     </div>
   );

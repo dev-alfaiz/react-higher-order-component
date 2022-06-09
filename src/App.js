@@ -1,5 +1,5 @@
 import * as React from "react";
-import { UsersList } from "./components";
+import { UsersList, TodoList } from "./components";
 
 const App = () => {
   return (
@@ -7,7 +7,12 @@ const App = () => {
       <h1>
         <u>React Higher Order Component</u>
       </h1>
-      <UsersList />
+      <div>
+        <UsersList />
+      </div>
+      <div>
+        <TodoList />
+      </div>
     </div>
   );
 };
